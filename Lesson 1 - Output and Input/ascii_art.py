@@ -26,8 +26,8 @@ print("/_____/")
 # EXTENSION
 # Try to create a more complicated ASCII picture
 print("Mammoth")
-print ("  -------")
-print (" /       \\")
-print("/   O O   \\")
-print ("/          \\")
-print("--------------")
+print ("   -------")
+print ("  /       \\")
+print(" /   O O   \\")
+print ("/     y     \\")
+print("-------------")
