@@ -11,17 +11,18 @@ NUMBER_OF_HOURS_IN_A_DAY = 24
 
 # Get input from the user and save it in a variable
 print("Give me a number of days and I will tell you how many seconds are in that day")
-input("Give me a number of days.")
-print ()
+days = input("Give me a number of days.")
+print (days)
 
 # Change the value into an integer and resave in the variable
-
+days = int (days)
 
 # Calculate the number of seconds using * with the input and your constants. 
 # Save it in a new variable.
-
+total = days * NUMBER_OF_HOURS_IN_A_DAY * NUMBER_OF_MINUTES_IN_A_HOUR * NUMBER_OF_SECONDS_IN_A_MINUTE
 # Output the answer
-
+print ("Here is that number of days in seconds")
+print(total)
 # ---------------------------------
 
 # EXTENSION 1
