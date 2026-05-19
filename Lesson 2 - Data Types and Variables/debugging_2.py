@@ -8,7 +8,7 @@ print("Current price per popcorn bucket: $5")
 print("Each student gets 2 buckets.")
 
 # User Input
-num_students = print("How many students are attending? ")
+num_students = input("How many students are attending? ")
 
 # Calculate
 total_buckets = num_students * 2

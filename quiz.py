@@ -17,4 +17,4 @@ else:
 print ("Quiz Bot:Let's move straight on to the next question\n Let's amp it up a little")
 print ("Quiz Bot: What's my favourite colour?")
 print ("I really threw them a bone there")
-print ("No multiple Choice here")
+print ("No multiple choice here")
