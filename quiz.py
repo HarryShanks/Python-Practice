@@ -15,6 +15,11 @@ else:
     print("Quiz Bot:That went about as well as expected. The answer was 2")
 #Question 2
 print ("Quiz Bot:Let's move straight on to the next question\n Let's amp it up a little")
-print ("Quiz Bot: What's my favourite colour?")
-print ("I really threw them a bone there")
-print ("No multiple choice here")
+print ("Quiz Bot:What's my favourite colour?")
+print ("Quiz Bot:I really threw them a bone there")
+print ("Quiz Bot:No multiple choice here")
+answer2 = input(f"{name}: ")
+if answer2 == ("Vermillion"):
+    print ("Quiz Bot:Obviously you got that one,Whew")
+else:
+    print ("Quiz Bot:You really aren't doing well, are you? The answer is clearly vermillion")
