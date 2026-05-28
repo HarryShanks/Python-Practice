@@ -31,7 +31,7 @@ answer_3 = input(f"{PLAYER_NAME}:").upper().strip()
 if answer_3 == "MEXICO CITY":
     print ("Quiz Bot:At least you know your geography")
 else:
-    print ("Quiz Bot:I hope I never go travelling with you")
+    print ("Quiz Bot:I hope I never go travelling with you. The answer was Mexico City")
 #Question 4 
 print ("Quiz Bot: Following up from Question 2, let's test you on some more colours")
 print ("Quiz Bot:In the rainbow, what follows Red,Orange,Yellow,Green,Blue,? (if you have multiple answers just put a space between them)")
@@ -47,13 +47,13 @@ elif answer4 == ("INDIGO" and "VIOLET"):
 else: 
     print ("Quiz Bot:You probably shouldn't have come on this show, there is no hope for you")
 #Question 5
-print ("Quiz Bot:I think Qustion 1 was a fluke")
+print ("Quiz Bot:I think Qustion 1 was a fluke so let's test your math skills again")
 print ("Quiz Bot:What is 9999999991 + 1999999999 * 0 + 3455 + 2" )
 answer5 = input(f"{PLAYER_NAME}:").lower().strip()    
-if answer5 != 9999999991 + 1999999999 * 0 + 3455 + 2:
-    print ("Quiz Bot:Yup, It was a fluke alright")
-elif answer5 == 9999999991 + 1999999999 * 0 + 3455 + 2:
+if answer5 == 3457:
     print ("Quiz Bot:Math Genius over here! I mean yeah that's right")
+else:
+    print ("Quiz Bot:Yup,It was a fluke alright")
 #Question 6
 print ("Quiz Bot:No breaks,lets head on to Question 6")
 print ("Quiz bot:Is 6>7")
