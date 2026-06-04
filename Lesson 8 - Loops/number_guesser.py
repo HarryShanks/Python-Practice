@@ -30,4 +30,4 @@ while current_guess != (secret_number):
 if  current_guess == (secret_number):
     print ()
     print ("You got it correct!\nGood Job")
-    print(f"It took you" {guesses} "tries to get in")
+    print (f"It took you {guesses} tries to get in")
