@@ -1,6 +1,6 @@
 
 # VALUES
-correct_country = "SCOTLAND"
+correct_country = "SCOTLAND" or "SHETLAND"
 current_guess = ""
 guesses = 0
 
@@ -14,9 +14,9 @@ while current_guess != (correct_country).upper():
     if guesses == 1:
       print ("Feeling magical?(Hint 1)")
     elif guesses == 2: 
-        print ("My ancestors are from this place(Hint 2)")
+        print ("One of the many lands of the world (Ends with land) (Hint 2)")
     elif guesses == 3:   
-        print ("One of the many lands of the world (Ends with land) (Hint 3)")
+        print ("My ancestors are from this place(Hint 3)")
     else:
         print ("Too many incorrect guesses!\nSystem Overheating\nSystem Shutdown")
         break
