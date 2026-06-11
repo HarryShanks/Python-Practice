@@ -14,13 +14,13 @@ guesses +=1
 while current_guess != (secret_number):
     if secret_number < current_guess:
         print ()
-        print ("Not Correct\nToo High")
+        print ("Not Correct\nGuess Lower")
         guesses +=1
         current_guess = int(input("Guess a number from 1 to 100\n"))
         print("Checking guess...")
     elif secret_number > current_guess:
         print ()
-        print ("Not Correct\nToo Low")
+        print ("Not Correct\nGuess Higher")
         guesses +=1
         current_guess = int(input("Guess a number from 1 to 100\n"))
         print("Checking guess")

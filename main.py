@@ -5,5 +5,12 @@
 #time.sleep (1)
 #print ("2")
 
-import random
-print(random.randint(0,10))
+while True:
+	guess = input('Guess a country: ')
+	if guess.lower().strip() == 'malawi':
+		break
+	print('Try again.')
+print('Well done!')
+
+
+
