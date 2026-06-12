@@ -11,15 +11,22 @@ import random
 # TODO: Create a list called 'responses' that contains at least 8 different 
 #       8-ball answers (strings). There should be positive answers, negative answers and neutral answers.
 #       Examples: "Yes, definitely!", "Ask again later.", "Outlook not so good."
-responses = ['Yes','No','Try again later','']
-
-
+responses = ['Yes','No','Try again later','Not Now', "I'm sleeping", 'You know the answer to that', 'How dare you ask me that', 'Maybe', 'Ask the gruffalo if you really want to know', "I'm not doing this today I QUIT"]
 # MAIN LOOP
 # TODO Create an infinite loop
+while True:
+    print ()
+    eight_ball_answer = input("Ask a yes or no question about your future (or press quit to leave)\n")
     
     # TODO: Ask the user to type in a Yes/No question about their future and save it in a variable.
     #       (Or tell them to type 'quit' to leave).
-    
+    if eight_ball_answer == quit:
+        break
+    else:
+        random_index = responses[random.randint(0,9)]
+        chosen_fortune = print(random_index)
+    print("Goodbye")
+    break
     # Check if the user wants to exit and break from the loop if they do.
         
     # RANDOM REPSONSE
