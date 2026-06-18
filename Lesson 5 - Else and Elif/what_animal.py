@@ -1,8 +1,8 @@
 #Intro to Quiz
 print ("Take this short test to find out what animal you are")
-answer_1 = input("Do you prefer Land,Sea or Sky? (Case Sensitive)\n")
+answer_1 = input("Do you prefer Land,Sea or Sky? (Case Sensitive)\n").lower()
 #Land Questions
-if answer_1 == ("Land"):
+if answer_1 == ("land"):
     answer_2 = input("Do you like running? \n")
     if answer_2 == ("Yes"):
         print ("You are a Cheetah!")
@@ -11,7 +11,7 @@ if answer_1 == ("Land"):
     else:
         print ("Sorry,you didn't seem to put in an answer\n Do you like running? \n" )
 #Sea Questions
-elif answer_1 == ("Sea"):
+elif answer_1 == ("sea"):
     answer_3 = input("Do you want to harness the power of electricity?\n")
     if answer_3 == ("Yes"):
         print ("You are a jellyfish!")
@@ -26,7 +26,7 @@ elif answer_1 == ("Sea"):
     else:
         print ("Sorry,you didn't seem to put in an answer\n Do you want to harness the power of electricity?\n")  
 #Sky Questions
-elif answer_1 == ("Sky"):
+elif answer_1 == ("sky"):
     answer_5 = input ("Do you want to lay eggs (Are you female?)\n")
     if answer_5 == ("Yes"):
         print ("You are a Hen!")
