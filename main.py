@@ -4,9 +4,17 @@
 #print ("1")
 #time.sleep (1)
 #print ("2")
-foods = ['apples','carrots','muesli']
-for i in range(len(foods)):
-    print(f'{i+1}.{foods[i]}')
+def check_play():
+    play = input("Do you want to play again")
+    if play.lower() in ["y", "yes"]:
+        return True
+    else:
+        return False
+
+print(check_play())
+
+
+
 
 
 
