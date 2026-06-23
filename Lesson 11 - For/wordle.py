@@ -65,17 +65,17 @@ while play == True:
 
         # TODO Check if the current letter of user_input (user_input[i]) is the same as the i letter of the word and if it is tell them they got that letter correct
                 else:
-                    for j in range(5):
-                        if guess[j] == secret_word[j]:
-                            print(f"{guess[j]} is in the right spot")
+                    for i in range(5):
+                        if guess[i] == secret_word[i]:
+                            print(f"{guess[i]} is in the right spot")
                             continue
                         # TODO Otherwise check if the current letter of user_input is in the word and if it is, tell them that letter is in the wrong position
-                        elif guess[j] in secret_word:
-                            print(f"{guess[j]} is in the word but is in the wrong spot")
+                        elif guess[i] in secret_word:
+                            print(f"{guess[i]} is in the word but is in the wrong spot")
                             continue
                         # TODO Else tell them that letter is wrong
                         else:
-                            print (f"{guess[j]} is not in the word ")
+                            print (f"{guess[i]} is not in the word ")
                             continue
                     input("What is your next guess?").lower().strip()
                     while len(guess)!= 5:

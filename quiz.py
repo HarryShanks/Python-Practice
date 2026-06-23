@@ -1,6 +1,7 @@
 #Intro
 if 7>6:
     print("Quiz Bot: Hello and welcome to the Loser's Quiz")
+HOST_NAME = "Quiz Bot:"
 score = 0
 print("Quiz Bot:You have been chosen by your peers to redeem your loserness and become an average person")
 PLAYER_NAME = input("Quiz Bot: What is your name?").strip()
@@ -41,7 +42,7 @@ else:
     print ("Quiz Bot:I hope I never go travelling with you. The answer was Mexico City")
 #Question 4 
 print()
-print ("Quiz Bot: Following up from Question 2, let's test you on some more colours")
+print (HOST_NAME "Following up from Question 2, let's test you on some more colours")
 print ("Quiz Bot:Question 4: In the rainbow, what follows Red,Orange,Yellow,Green,Blue,? (if you have multiple answers just put a space between them)")
 answer4 = input(f'{PLAYER_NAME}:').upper().strip()
 if answer4 == "INDIGO":
@@ -59,7 +60,7 @@ else:
 #Question 5
 print()
 print ("Quiz Bot:I think Qustion 1 was a fluke so let's test your math skills again")
-print ("Quiz Bot:Question 5:What is 9999999991 + 1999999999 * 0 + 3455 + 2" )
+print ("Quiz Bot: Question 5:\nWhat is 9999999991 + 1999999999 * 0 + 3455 + 2" )
 answer5 = input(f"{PLAYER_NAME}:").lower().strip()    
 if answer5 == "3457":
     print ("Quiz Bot:Math Genius over here! I mean yeah that's right")
