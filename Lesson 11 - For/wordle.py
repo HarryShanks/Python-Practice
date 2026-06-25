@@ -212,7 +212,7 @@ while play == True:
                                                             print()
                                                             print("You got it correct!")
                                                             again = input("Do you want to play again?").lower().strip()
-                                                            if again in "yes":
+                                                            if again in ["yes","y"]:
                                                                 play = True
                                                             else:
                                                                 play = False
