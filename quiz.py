@@ -81,7 +81,7 @@ if 7>6:
         elif answer6 == ("YES"):
             print (f"{HOST_NAME} That is the wrong answer")
         else:
-            print(f"{HOST_NAME} It was a yes or no question, Why didn't you put yes or no")
+            answer6 = input(f"{HOST_NAME} It was a yes or no question, Why didn't you put yes or no")
         #End of Quiz
         print()
         print (f"{HOST_NAME} Well you made it to the end of the quiz")
